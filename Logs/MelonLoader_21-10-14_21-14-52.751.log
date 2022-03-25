@@ -1,0 +1,340 @@
+[21:14:52.767] ------------------------------
+[21:14:52.767] MelonLoader v0.4.3 Open-Beta
+[21:14:52.767] OS: Windows 10
+[21:14:52.768] Hash Code: 10199571005256100975748575398505751559856525454574855561005057495297
+[21:14:52.768] ------------------------------
+[21:14:52.768] Name: BloonsTD6
+[21:14:52.769] Developer: Ninja Kiwi
+[21:14:52.769] Unity Version: 2020.3.18
+[21:14:52.769] Game Type: Il2Cpp
+[21:14:52.770] Game Arch: x64
+[21:14:52.770] ------------------------------
+
+[21:14:54.108] Preferences Loaded!
+[21:14:54.162] Loading Plugins...
+
+[21:14:54.171] ------------------------------
+[21:14:54.172] No Plugins Loaded!
+[21:14:54.172] ------------------------------
+
+[21:14:54.721] Loading Il2CppAssemblyGenerator...
+[21:14:55.123] Contacting RemoteAPI...
+[21:14:55.507] ForceDumperVersion = 2021.4.1
+[21:14:55.507] ForceUnhollowerVersion = null
+[21:14:55.507] ObfuscationRegex = null
+[21:14:55.508] MappingURL = null
+[21:14:55.508] MappingFileSHA512 = null
+[21:14:55.509] Downloading Unity 2020.3.18 Dependencies...
+[21:14:55.535] Downloading https://github.com/LavaGang/Unity-Runtime-Libraries/raw/master/2020.3.18.zip to C:\Users\Robert\AppData\Local\Temp\tmp2d2a4d25.tmp
+[21:14:56.476] Cleaning C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Dependencies\Il2CppAssemblyGenerator\UnityDependencies
+[21:14:56.519] Extracting C:\Users\Robert\AppData\Local\Temp\tmp2d2a4d25.tmp to C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Dependencies\Il2CppAssemblyGenerator\UnityDependencies
+[21:14:58.190] Downloading Cpp2IL...
+[21:14:58.192] Downloading https://github.com/SamboyCoding/Cpp2IL/releases/download/2021.4.1/Cpp2IL-2021.4.1-Windows.exe to C:\Users\Robert\AppData\Local\Temp\tmp750df0b0.tmp
+[21:15:00.232] Cleaning C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Dependencies\Il2CppAssemblyGenerator\Cpp2IL
+[21:15:00.275] Moving C:\Users\Robert\AppData\Local\Temp\tmp750df0b0.tmp to C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Dependencies\Il2CppAssemblyGenerator\Cpp2IL\Cpp2IL-2021.4.1-Windows.exe
+[21:15:00.280] Il2CppAssemblyUnhollower is up to date. No Download Needed.
+[21:15:00.281] Checking GameAssembly...
+[21:15:00.474] Assembly Generation Needed!
+[21:15:00.475] Executing Cpp2IL...
+[21:15:00.491] "C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Dependencies\Il2CppAssemblyGenerator\Cpp2IL\Cpp2IL-2021.4.1-Windows.exe" --game-path "C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6" --exe-name "BloonsTD6" --skip-analysis --skip-metadata-txts --disable-registration-prompts
+[21:15:01.291] ===Cpp2IL by Samboy063===
+[21:15:01.292] A Tool to Reverse Unity's "il2cpp" Build Process.
+[21:15:01.293] 
+[21:15:01.317] [Warn] [Program] NO_COLOR set, disabling ANSI color codes as you requested.
+[21:15:01.327] [Info] [Program] Running on Win32NT
+[21:15:01.576] [Info] [Program] Determined game's unity version to be 2020.3.18
+[21:15:01.650] [Info] [Library] Initializing Metadata...
+[21:15:01.670] [Info] [Library] 	Using actual IL2CPP Metadata version 27.1
+[21:15:02.482] [Info] [Library] Initialized Metadata in 859ms
+[21:15:02.482] [Info] [Library] Searching Binary for Required Data...
+[21:15:05.272] [Info] [Library] Got Binary codereg: 0x181EA8AF0, metareg: 0x181EACCF0 in 2790ms.
+[21:15:05.273] [Info] [Library] Initializing Binary...
+[21:15:05.884] [Info] [Library] Initialized Binary in 612ms
+[21:15:06.000] [Info] [Library] Mapping pointers to Il2CppMethodDefinitions...Processed 76303 OK (116ms)
+[21:15:06.002] [Info] [Program] Building assemblies...This may take some time.
+[21:15:08.884] [Info] [Program] Finished Building Assemblies in 2882ms
+[21:15:08.885] [Info] [Program] Fixing up explicit overrides. Any warnings you see here aren't errors - they usually indicate improperly stripped or obfuscated types, but this is not a big deal. This should only take a second...
+[21:15:09.160] [Info] [Program] Fixup complete (276ms)
+[21:15:09.161] [Info] [Program] Running Scan for Known Functions...
+[21:15:09.431] [Info] [Program] Applying type, method, and field attributes...This may take a couple of seconds
+[21:15:11.018] [Info] [Program] Finished Applying Attributes in 1587ms
+[21:15:11.019] [Info] [Program] Saving 64 assemblies to C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Dependencies\Il2CppAssemblyGenerator\Cpp2IL\cpp2il_out...
+[21:15:12.007] [Info] [Program] Done.
+[21:15:12.071] Executing Il2CppAssemblyUnhollower...
+[21:15:12.073] "C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Dependencies\Il2CppAssemblyGenerator\Il2CppAssemblyUnhollower\AssemblyUnhollower.exe" "--input=C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Dependencies\Il2CppAssemblyGenerator\Cpp2IL\cpp2il_out" "--output=C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Dependencies\Il2CppAssemblyGenerator\Il2CppAssemblyUnhollower\Managed" "--mscorlib=C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Managed\mscorlib.dll" "--unity=C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Dependencies\Il2CppAssemblyGenerator\UnityDependencies" "--gameassembly=C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\GameAssembly.dll" "--blacklist-assembly=Mono.Security" "--blacklist-assembly=Newtonsoft.Json" "--blacklist-assembly=Valve.Newtonsoft.Json"
+[21:15:12.621] Reading assemblies... 
+[21:15:13.916] Done in 00:00:01.2949562
+[21:15:13.917] Reading system assemblies... 
+[21:15:13.938] Done in 00:00:00.0216076
+[21:15:13.939] Reading unity assemblies... 
+[21:15:13.957] Done in 00:00:00.0189753
+[21:15:13.958] Creating rewrite assemblies... 
+[21:15:13.976] Done in 00:00:00.0185438
+[21:15:13.976] Computing renames... 
+[21:15:14.038] Done in 00:00:00.0626004
+[21:15:14.039] Creating typedefs... 
+[21:15:14.109] Done in 00:00:00.0707756
+[21:15:14.110] Computing struct blittability... 
+[21:15:14.121] Done in 00:00:00.0126307
+[21:15:14.122] Filling typedefs... 
+[21:15:14.141] Done in 00:00:00.0187120
+[21:15:14.141] Filling generic constraints... 
+[21:15:14.145] Done in 00:00:00.0050763
+[21:15:14.146] Creating members... 
+[21:15:15.150] Done in 00:00:01.0047879
+[21:15:15.151] Scanning method cross-references... 
+[21:15:16.207] Done in 00:00:01.0563800
+[21:15:16.208] Finalizing method declarations... 
+[21:15:17.442] Done in 00:00:01.2351380
+[21:15:17.443] 9 total potentially dead methods
+[21:15:17.443] Filling method parameters... 
+[21:15:17.610] Done in 00:00:00.1676461
+[21:15:17.610] Creating static constructors... 
+[21:15:18.278] Done in 00:00:00.6685297
+[21:15:18.279] Creating value type fields... 
+[21:15:18.422] Done in 00:00:00.1437987
+[21:15:18.423] Creating enums... 
+[21:15:18.447] Done in 00:00:00.0246387
+[21:15:18.447] Creating IntPtr constructors... 
+[21:15:18.502] Done in 00:00:00.0554601
+[21:15:18.503] Creating type getters... 
+[21:15:18.585] Done in 00:00:00.0825547
+[21:15:18.585] Creating non-blittable struct constructors... 
+[21:15:18.596] Done in 00:00:00.0115291
+[21:15:18.597] Creating generic method static constructors... 
+[21:15:18.636] Done in 00:00:00.0400241
+[21:15:18.637] Creating field accessors... 
+[21:15:19.577] Done in 00:00:00.9403915
+[21:15:19.577] Filling methods... 
+[21:15:20.608] Done in 00:00:01.0291357
+[21:15:20.608] Generating implicit conversions... 
+[21:15:20.640] Done in 00:00:00.0336665
+[21:15:20.640] Creating properties... 
+[21:15:20.705] Done in 00:00:00.0658467
+[21:15:20.706] Unstripping types... 
+[21:15:20.862] Done in 00:00:00.1562829
+[21:15:20.863] Unstripping fields... 
+[21:15:20.867] 
+[21:15:20.867] 624 fields restored
+[21:15:20.868] 28 fields failed to restore
+[21:15:20.868] Done in 00:00:00.0050667
+[21:15:20.869] Unstripping methods... 
+[21:15:21.180] 
+[21:15:21.181] 15452 methods restored
+[21:15:21.182] 1214 methods failed to restore
+[21:15:21.182] Done in 00:00:00.3134469
+[21:15:21.183] Unstripping method bodies... 
+[21:15:21.560] 
+[21:15:21.561] IL unstrip statistics: 7171 successful, 3171 failed
+[21:15:21.561] Done in 00:00:00.3800149
+[21:15:21.562] Generating forwarded types... 
+[21:15:21.574] Done in 00:00:00.0143005
+[21:15:21.576] Writing xref cache... 
+[21:15:21.963] Done in 00:00:00.3883029
+[21:15:21.964] Writing assemblies... 
+[21:15:23.376] Done in 00:00:01.4132831
+[21:15:23.377] Writing method pointer map... 
+[21:15:23.423] Done in 00:00:00.0463730
+[21:15:23.434] Done!
+[21:15:23.560] Deleting Assembly-CSharp-firstpass.dll
+[21:15:23.562] Deleting Assembly-CSharp.dll
+[21:15:23.563] Deleting Facebook.Unity.Settings.dll
+[21:15:23.564] Deleting Facepunch.Steamworks.dll
+[21:15:23.565] Deleting Iced.dll
+[21:15:23.566] Deleting Il2CppMono.Security.dll
+[21:15:23.567] Deleting Il2Cppmscorlib.dll
+[21:15:23.567] Deleting Il2CppSystem.Configuration.dll
+[21:15:23.568] Deleting Il2CppSystem.Core.dll
+[21:15:23.570] Deleting Il2CppSystem.Diagnostics.StackTrace.dll
+[21:15:23.570] Deleting Il2CppSystem.dll
+[21:15:23.571] Deleting Il2CppSystem.Globalization.Extensions.dll
+[21:15:23.572] Deleting Il2CppSystem.IO.Compression.dll
+[21:15:23.572] Deleting Il2CppSystem.Net.Http.dll
+[21:15:23.573] Deleting Il2CppSystem.Runtime.Serialization.dll
+[21:15:23.574] Deleting Il2CppSystem.Xml.dll
+[21:15:23.575] Deleting Il2CppSystem.Xml.Linq.dll
+[21:15:23.576] Deleting MethodAddressToToken.db
+[21:15:23.577] Deleting MethodXrefScanCache.db
+[21:15:23.579] Deleting NCalc.dll
+[21:15:23.580] Deleting netstandard.dll
+[21:15:23.581] Deleting NinjaKiwi.Common.dll
+[21:15:23.582] Deleting NinjaKiwi.LiNK.dll
+[21:15:23.583] Deleting Purchasing.Common.dll
+[21:15:23.584] Deleting Twitch.dll
+[21:15:23.584] Deleting UnhollowerBaseLib.dll
+[21:15:23.585] Deleting UnhollowerRuntimeLib.dll
+[21:15:23.586] Deleting Unity.Addressables.dll
+[21:15:23.586] Deleting Unity.ResourceManager.dll
+[21:15:23.587] Deleting Unity.TextMeshPro.dll
+[21:15:23.589] Deleting UnityEngine.AccessibilityModule.dll
+[21:15:23.589] Deleting UnityEngine.AIModule.dll
+[21:15:23.590] Deleting UnityEngine.AndroidJNIModule.dll
+[21:15:23.592] Deleting UnityEngine.AnimationModule.dll
+[21:15:23.592] Deleting UnityEngine.ARModule.dll
+[21:15:23.593] Deleting UnityEngine.AssetBundleModule.dll
+[21:15:23.594] Deleting UnityEngine.AudioModule.dll
+[21:15:23.595] Deleting UnityEngine.ClothModule.dll
+[21:15:23.595] Deleting UnityEngine.ClusterInputModule.dll
+[21:15:23.596] Deleting UnityEngine.ClusterRendererModule.dll
+[21:15:23.597] Deleting UnityEngine.CoreModule.dll
+[21:15:23.599] Deleting UnityEngine.CrashReportingModule.dll
+[21:15:23.600] Deleting UnityEngine.DirectorModule.dll
+[21:15:23.600] Deleting UnityEngine.dll
+[21:15:23.601] Deleting UnityEngine.DSPGraphModule.dll
+[21:15:23.602] Deleting UnityEngine.GameCenterModule.dll
+[21:15:23.603] Deleting UnityEngine.GridModule.dll
+[21:15:23.603] Deleting UnityEngine.HotReloadModule.dll
+[21:15:23.604] Deleting UnityEngine.ImageConversionModule.dll
+[21:15:23.605] Deleting UnityEngine.IMGUIModule.dll
+[21:15:23.606] Deleting UnityEngine.InputLegacyModule.dll
+[21:15:23.606] Deleting UnityEngine.InputModule.dll
+[21:15:23.608] Deleting UnityEngine.JSONSerializeModule.dll
+[21:15:23.609] Deleting UnityEngine.LocalizationModule.dll
+[21:15:23.610] Deleting UnityEngine.ParticleSystemModule.dll
+[21:15:23.611] Deleting UnityEngine.PerformanceReportingModule.dll
+[21:15:23.612] Deleting UnityEngine.Physics2DModule.dll
+[21:15:23.612] Deleting UnityEngine.PhysicsModule.dll
+[21:15:23.613] Deleting UnityEngine.ProfilerModule.dll
+[21:15:23.614] Deleting UnityEngine.Purchasing.dll
+[21:15:23.615] Deleting UnityEngine.Purchasing.Stores.dll
+[21:15:23.615] Deleting UnityEngine.ScreenCaptureModule.dll
+[21:15:23.616] Deleting UnityEngine.SharedInternalsModule.dll
+[21:15:23.618] Deleting UnityEngine.SpriteMaskModule.dll
+[21:15:23.619] Deleting UnityEngine.SpriteShapeModule.dll
+[21:15:23.619] Deleting UnityEngine.StreamingModule.dll
+[21:15:23.620] Deleting UnityEngine.SubstanceModule.dll
+[21:15:23.621] Deleting UnityEngine.SubsystemsModule.dll
+[21:15:23.622] Deleting UnityEngine.TerrainModule.dll
+[21:15:23.622] Deleting UnityEngine.TerrainPhysicsModule.dll
+[21:15:23.623] Deleting UnityEngine.TextCoreModule.dll
+[21:15:23.624] Deleting UnityEngine.TextRenderingModule.dll
+[21:15:23.625] Deleting UnityEngine.TilemapModule.dll
+[21:15:23.626] Deleting UnityEngine.TLSModule.dll
+[21:15:23.628] Deleting UnityEngine.UI.dll
+[21:15:23.629] Deleting UnityEngine.UIElementsModule.dll
+[21:15:23.629] Deleting UnityEngine.UIModule.dll
+[21:15:23.630] Deleting UnityEngine.UmbraModule.dll
+[21:15:23.631] Deleting UnityEngine.UNETModule.dll
+[21:15:23.632] Deleting UnityEngine.UnityAnalyticsModule.dll
+[21:15:23.632] Deleting UnityEngine.UnityConnectModule.dll
+[21:15:23.633] Deleting UnityEngine.UnityTestProtocolModule.dll
+[21:15:23.634] Deleting UnityEngine.UnityWebRequestAssetBundleModule.dll
+[21:15:23.634] Deleting UnityEngine.UnityWebRequestAudioModule.dll
+[21:15:23.635] Deleting UnityEngine.UnityWebRequestModule.dll
+[21:15:23.636] Deleting UnityEngine.UnityWebRequestTextureModule.dll
+[21:15:23.638] Deleting UnityEngine.UnityWebRequestWWWModule.dll
+[21:15:23.638] Deleting UnityEngine.VehiclesModule.dll
+[21:15:23.640] Deleting UnityEngine.VFXModule.dll
+[21:15:23.641] Deleting UnityEngine.VideoModule.dll
+[21:15:23.642] Deleting UnityEngine.VRModule.dll
+[21:15:23.642] Deleting UnityEngine.WindModule.dll
+[21:15:23.643] Deleting UnityEngine.XRModule.dll
+[21:15:23.644] Deleting UnityStore.dll
+[21:15:23.648] Moving Assembly-CSharp-firstpass.dll
+[21:15:23.649] Moving Assembly-CSharp.dll
+[21:15:23.651] Moving DebugLog.dll
+[21:15:23.652] Moving Facebook.Unity.Settings.dll
+[21:15:23.654] Moving Facepunch.Steamworks.dll
+[21:15:23.655] Moving Iced.dll
+[21:15:23.657] Moving Il2CppMono.Security.dll
+[21:15:23.660] Moving Il2Cppmscorlib.dll
+[21:15:23.661] Moving Il2CppSystem.Configuration.dll
+[21:15:23.663] Moving Il2CppSystem.Core.dll
+[21:15:23.665] Moving Il2CppSystem.dll
+[21:15:23.666] Moving Il2CppSystem.Net.Http.dll
+[21:15:23.668] Moving Il2CppSystem.Runtime.Serialization.dll
+[21:15:23.670] Moving Il2CppSystem.Xml.dll
+[21:15:23.671] Moving Il2CppSystem.Xml.Linq.dll
+[21:15:23.673] Moving MethodAddressToToken.db
+[21:15:23.674] Moving MethodXrefScanCache.db
+[21:15:23.678] Moving NCalc.dll
+[21:15:23.680] Moving NinjaKiwi.Common.dll
+[21:15:23.681] Moving NinjaKiwi.LiNK.dll
+[21:15:23.685] Moving Purchasing.Common.dll
+[21:15:23.686] Moving Twitch.dll
+[21:15:23.688] Moving UnhollowerBaseLib.dll
+[21:15:23.689] Moving UnhollowerRuntimeLib.dll
+[21:15:23.691] Moving Unity.Addressables.dll
+[21:15:23.693] Moving Unity.InputSystem.dll
+[21:15:23.695] Moving Unity.ResourceManager.dll
+[21:15:23.697] Moving Unity.TextMeshPro.dll
+[21:15:23.699] Moving UnityEngine.AccessibilityModule.dll
+[21:15:23.700] Moving UnityEngine.AIModule.dll
+[21:15:23.702] Moving UnityEngine.AndroidJNIModule.dll
+[21:15:23.704] Moving UnityEngine.AnimationModule.dll
+[21:15:23.706] Moving UnityEngine.ARModule.dll
+[21:15:23.707] Moving UnityEngine.AssetBundleModule.dll
+[21:15:23.709] Moving UnityEngine.AudioModule.dll
+[21:15:23.711] Moving UnityEngine.ClothModule.dll
+[21:15:23.713] Moving UnityEngine.ClusterInputModule.dll
+[21:15:23.714] Moving UnityEngine.ClusterRendererModule.dll
+[21:15:23.716] Moving UnityEngine.CoreModule.dll
+[21:15:23.717] Moving UnityEngine.CrashReportingModule.dll
+[21:15:23.719] Moving UnityEngine.DirectorModule.dll
+[21:15:23.720] Moving UnityEngine.dll
+[21:15:23.723] Moving UnityEngine.DSPGraphModule.dll
+[21:15:23.725] Moving UnityEngine.GameCenterModule.dll
+[21:15:23.727] Moving UnityEngine.GIModule.dll
+[21:15:23.728] Moving UnityEngine.GridModule.dll
+[21:15:23.730] Moving UnityEngine.HotReloadModule.dll
+[21:15:23.731] Moving UnityEngine.ImageConversionModule.dll
+[21:15:23.733] Moving UnityEngine.IMGUIModule.dll
+[21:15:23.734] Moving UnityEngine.InputLegacyModule.dll
+[21:15:23.736] Moving UnityEngine.InputModule.dll
+[21:15:23.738] Moving UnityEngine.JSONSerializeModule.dll
+[21:15:23.740] Moving UnityEngine.LocalizationModule.dll
+[21:15:23.742] Moving UnityEngine.ParticleSystemModule.dll
+[21:15:23.743] Moving UnityEngine.PerformanceReportingModule.dll
+[21:15:23.745] Moving UnityEngine.Physics2DModule.dll
+[21:15:23.746] Moving UnityEngine.PhysicsModule.dll
+[21:15:23.748] Moving UnityEngine.ProfilerModule.dll
+[21:15:23.749] Moving UnityEngine.Purchasing.dll
+[21:15:23.750] Moving UnityEngine.Purchasing.Stores.dll
+[21:15:23.752] Moving UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+[21:15:23.754] Moving UnityEngine.ScreenCaptureModule.dll
+[21:15:23.755] Moving UnityEngine.SharedInternalsModule.dll
+[21:15:23.757] Moving UnityEngine.SpriteMaskModule.dll
+[21:15:23.759] Moving UnityEngine.SpriteShapeModule.dll
+[21:15:23.760] Moving UnityEngine.StreamingModule.dll
+[21:15:23.762] Moving UnityEngine.SubstanceModule.dll
+[21:15:23.764] Moving UnityEngine.SubsystemsModule.dll
+[21:15:23.765] Moving UnityEngine.TerrainModule.dll
+[21:15:23.767] Moving UnityEngine.TerrainPhysicsModule.dll
+[21:15:23.769] Moving UnityEngine.TextCoreModule.dll
+[21:15:23.770] Moving UnityEngine.TextRenderingModule.dll
+[21:15:23.771] Moving UnityEngine.TilemapModule.dll
+[21:15:23.773] Moving UnityEngine.TLSModule.dll
+[21:15:23.775] Moving UnityEngine.UI.dll
+[21:15:23.776] Moving UnityEngine.UIElementsModule.dll
+[21:15:23.778] Moving UnityEngine.UIElementsNativeModule.dll
+[21:15:23.779] Moving UnityEngine.UIModule.dll
+[21:15:23.781] Moving UnityEngine.UmbraModule.dll
+[21:15:23.782] Moving UnityEngine.UNETModule.dll
+[21:15:23.784] Moving UnityEngine.UnityAnalyticsModule.dll
+[21:15:23.785] Moving UnityEngine.UnityConnectModule.dll
+[21:15:23.787] Moving UnityEngine.UnityCurlModule.dll
+[21:15:23.788] Moving UnityEngine.UnityTestProtocolModule.dll
+[21:15:23.790] Moving UnityEngine.UnityWebRequestAssetBundleModule.dll
+[21:15:23.792] Moving UnityEngine.UnityWebRequestAudioModule.dll
+[21:15:23.794] Moving UnityEngine.UnityWebRequestModule.dll
+[21:15:23.795] Moving UnityEngine.UnityWebRequestTextureModule.dll
+[21:15:23.797] Moving UnityEngine.UnityWebRequestWWWModule.dll
+[21:15:23.798] Moving UnityEngine.VehiclesModule.dll
+[21:15:23.800] Moving UnityEngine.VFXModule.dll
+[21:15:23.801] Moving UnityEngine.VideoModule.dll
+[21:15:23.804] Moving UnityEngine.VirtualTexturingModule.dll
+[21:15:23.805] Moving UnityEngine.VRModule.dll
+[21:15:23.807] Moving UnityEngine.WindModule.dll
+[21:15:23.809] Moving UnityEngine.XRModule.dll
+[21:15:23.810] Moving UnityStore.dll
+[21:15:23.832] Assembly Generation Successful!
+[21:15:24.168] Game Version: 28.1
+
+[21:15:24.169] Loading Support Module...
+
+[21:15:24.429] Loading Mods...
+
+[21:15:24.431] ------------------------------
+[21:15:24.431] No Mods Loaded!
+[21:15:24.432] ------------------------------
+[00:02:30.887] Preferences Saved!

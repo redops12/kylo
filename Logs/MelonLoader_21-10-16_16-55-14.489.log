@@ -1,0 +1,81 @@
+[16:55:14.507] ------------------------------
+[16:55:14.508] MelonLoader v0.4.3 Open-Beta
+[16:55:14.508] OS: Windows 10
+[16:55:14.508] Hash Code: 10199571005256100975748575398505751559856525454574855561005057495297
+[16:55:14.509] ------------------------------
+[16:55:14.509] Name: BloonsTD6
+[16:55:14.509] Developer: Ninja Kiwi
+[16:55:14.510] Unity Version: 2020.3.18
+[16:55:14.510] Game Type: Il2Cpp
+[16:55:14.510] Game Arch: x64
+[16:55:14.511] ------------------------------
+
+[16:55:16.014] Preferences Loaded!
+[16:55:16.073] Loading Plugins...
+
+[16:55:16.082] ------------------------------
+[16:55:16.082] No Plugins Loaded!
+[16:55:16.083] ------------------------------
+
+[16:55:16.629] Loading Il2CppAssemblyGenerator...
+[16:55:17.038] Contacting RemoteAPI...
+[16:55:17.441] ForceDumperVersion = 2021.4.1
+[16:55:17.441] ForceUnhollowerVersion = null
+[16:55:17.441] ObfuscationRegex = null
+[16:55:17.442] MappingURL = null
+[16:55:17.442] MappingFileSHA512 = null
+[16:55:17.442] Unity Dependencies are up to date. No Download Needed.
+[16:55:17.443] Cpp2IL is up to date. No Download Needed.
+[16:55:17.444] Il2CppAssemblyUnhollower is up to date. No Download Needed.
+[16:55:17.444] Checking GameAssembly...
+[16:55:17.668] Assembly is up to date. No Generation Needed.
+[16:55:18.069] Game Version: 28.1
+
+[16:55:18.070] Loading Support Module...
+
+[16:55:18.348] Loading Mods...
+
+[16:55:19.539] ------------------------------
+[16:55:19.540] 3 Mods Loaded
+[16:55:19.540] ------------------------------
+[16:55:19.541] BloonsTD6 Mod Helper v2.0.0
+[16:55:19.541] by Gurrenm4, Doombubbles, and BowDown097
+[16:55:19.548] SHA256 Hash: aca8c12b9ebadcc205637cf5dc5cd1e52bbae00b46f46ab099263dd359c32708
+[16:55:19.549] ------------------------------
+[16:55:19.549] Gurren Core v1.0.2
+[16:55:19.550] by Gurrenm4
+[16:55:19.551] SHA256 Hash: fcdb28e3c1ff795c0196ca1dd14e85b08a5f0999d3cc87b039c727f489f817a3
+[16:55:19.552] ------------------------------
+[16:55:19.552] speedhackmelon v1.0.0
+[16:55:19.553] by Timotheeee1
+[16:55:19.554] SHA256 Hash: 53caefa864d219ba3abe460d5514cfd9bf026216bba178a89a418a5353cde32a
+[16:55:19.554] ------------------------------
+[16:55:19.782] [BloonsTD6_Mod_Helper] [ERROR] HarmonyLib.HarmonyException: IL Compile Error (unknown location) ---> HarmonyLib.HarmonyException: IL Compile Error (unknown location) ---> System.Exception: Parameter "removeSave" not found in method void Assets.Scripts.Unity.UI_New.InGame.InGame::Restart()
+  at HarmonyLib.Public.Patching.HarmonyManipulator.EmitCallParameter (HarmonyLib.Internal.Util.ILEmitter il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2[TKey,TValue] variables, System.Boolean allowFirsParamPassthrough, Mono.Cecil.Cil.VariableDefinition& tmpObjectVar, System.Collections.Generic.List`1[HarmonyLib.Public.Patching.HarmonyManipulator+ArgumentBoxInfo]& tmpBoxVars) [0x00685] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.Public.Patching.HarmonyManipulator.WritePostfixes (HarmonyLib.Internal.Util.ILEmitter il, System.Reflection.MethodBase original, HarmonyLib.Internal.Util.ILEmitter+Label returnLabel, System.Collections.Generic.Dictionary`2[TKey,TValue] variables, System.Collections.Generic.ICollection`1[T] postfixes, System.Boolean debug) [0x00146] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.Public.Patching.HarmonyManipulator.MakePatched (System.Reflection.MethodBase original, MonoMod.Cil.ILContext ctx, System.Collections.Generic.List`1[T] prefixes, System.Collections.Generic.List`1[T] postfixes, System.Collections.Generic.List`1[T] transpilers, System.Collections.Generic.List`1[T] finalizers, System.Collections.Generic.List`1[T] ilmanipulators, System.Boolean debug) [0x001a4] in <67e16b0234254e2183a98652371f8451>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.Public.Patching.HarmonyManipulator.MakePatched (System.Reflection.MethodBase original, MonoMod.Cil.ILContext ctx, System.Collections.Generic.List`1[T] prefixes, System.Collections.Generic.List`1[T] postfixes, System.Collections.Generic.List`1[T] transpilers, System.Collections.Generic.List`1[T] finalizers, System.Collections.Generic.List`1[T] ilmanipulators, System.Boolean debug) [0x002a8] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.Public.Patching.HarmonyManipulator.Manipulate (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo, MonoMod.Cil.ILContext ctx) [0x00051] in <67e16b0234254e2183a98652371f8451>:0 
+  at MelonLoader.HarmonyIl2CppMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x00029] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x00033] in <67e16b0234254e2183a98652371f8451>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00045] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00084] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__11_0 (System.Type type) [0x00007] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <67e16b0234254e2183a98652371f8451>:0 
+  at MelonLoader.MelonHandler+<>c.<OnApplicationStart_Mods>b__30_0 (MelonLoader.MelonMod x) [0x0001a] in <67e16b0234254e2183a98652371f8451>:0 
+  at MelonLoader.MelonHandler.InvokeMelonMethod[T] (System.Collections.Generic.List`1[T]& melons, MelonLoader.MelonHandler+InvokeMelonMethodDelegate`1[T] method, System.Boolean remove_failed) [0x00032] in <67e16b0234254e2183a98652371f8451>:0 
+[16:55:19.801] [Gurren_Core] [ERROR] HarmonyLib.HarmonyException: Patching exception in method null ---> System.ArgumentException: Undefined target method for patch method static void Gurren_Core.Patches._MainMenu.MainMenuOnEnable_Patch::Postfix()
+  at HarmonyLib.PatchClassProcessor.PatchWithAttributes (System.Reflection.MethodBase& lastOriginal) [0x00047] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00059] in <67e16b0234254e2183a98652371f8451>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x0006c] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00084] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__11_0 (System.Type type) [0x00007] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <67e16b0234254e2183a98652371f8451>:0 
+  at MelonLoader.MelonHandler+<>c.<OnApplicationStart_Mods>b__30_0 (MelonLoader.MelonMod x) [0x0001a] in <67e16b0234254e2183a98652371f8451>:0 
+  at MelonLoader.MelonHandler.InvokeMelonMethod[T] (System.Collections.Generic.List`1[T]& melons, MelonLoader.MelonHandler+InvokeMelonMethodDelegate`1[T] method, System.Boolean remove_failed) [0x00032] in <67e16b0234254e2183a98652371f8451>:0 
+[18:26:25.035] Preferences Saved!

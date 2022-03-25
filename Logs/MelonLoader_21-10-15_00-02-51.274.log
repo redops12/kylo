@@ -1,0 +1,41 @@
+[00:02:51.285] ------------------------------
+[00:02:51.285] MelonLoader v0.4.3 Open-Beta
+[00:02:51.286] OS: Windows 10
+[00:02:51.286] Hash Code: 10199571005256100975748575398505751559856525454574855561005057495297
+[00:02:51.287] ------------------------------
+[00:02:51.287] Name: BloonsTD6
+[00:02:51.287] Developer: Ninja Kiwi
+[00:02:51.288] Unity Version: 2020.3.18
+[00:02:51.288] Game Type: Il2Cpp
+[00:02:51.288] Game Arch: x64
+[00:02:51.288] ------------------------------
+
+[00:02:52.158] Preferences Loaded!
+[00:02:52.208] Loading Plugins...
+
+[00:02:52.222] ------------------------------
+[00:02:52.223] No Plugins Loaded!
+[00:02:52.223] ------------------------------
+
+[00:02:52.886] Loading Il2CppAssemblyGenerator...
+[00:02:53.048] Contacting RemoteAPI...
+[00:02:53.407] ForceDumperVersion = 2021.4.1
+[00:02:53.407] ForceUnhollowerVersion = null
+[00:02:53.407] ObfuscationRegex = null
+[00:02:53.408] MappingURL = null
+[00:02:53.408] MappingFileSHA512 = null
+[00:02:53.409] Unity Dependencies are up to date. No Download Needed.
+[00:02:53.409] Cpp2IL is up to date. No Download Needed.
+[00:02:53.410] Il2CppAssemblyUnhollower is up to date. No Download Needed.
+[00:02:53.410] Checking GameAssembly...
+[00:02:53.591] Assembly is up to date. No Generation Needed.
+[00:02:53.608] Game Version: 28.1
+
+[00:02:53.609] Loading Support Module...
+
+[00:02:53.756] Loading Mods...
+
+[00:02:53.757] ------------------------------
+[00:02:53.758] No Mods Loaded!
+[00:02:53.758] ------------------------------
+[00:23:54.195] Preferences Saved!

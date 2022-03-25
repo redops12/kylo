@@ -1,0 +1,75 @@
+[17:08:45.690] ------------------------------
+[17:08:45.690] MelonLoader v0.4.3 Open-Beta
+[17:08:45.691] OS: Windows 10
+[17:08:45.691] Hash Code: 10199571005256100975748575398505751559856525454574855561005057495297
+[17:08:45.691] ------------------------------
+[17:08:45.691] Name: BloonsTD6
+[17:08:45.692] Developer: Ninja Kiwi
+[17:08:45.692] Unity Version: 2019.4.22
+[17:08:45.692] Game Type: Il2Cpp
+[17:08:45.692] Game Arch: x64
+[17:08:45.693] ------------------------------
+
+[17:08:47.054] Preferences Loaded!
+[17:08:47.118] Loading Plugins...
+
+[17:08:47.128] ------------------------------
+[17:08:47.128] No Plugins Loaded!
+[17:08:47.129] ------------------------------
+
+[17:08:47.631] Loading Il2CppAssemblyGenerator...
+[17:08:48.025] Contacting RemoteAPI...
+[17:08:48.438] ForceDumperVersion = null
+[17:08:48.438] ForceUnhollowerVersion = null
+[17:08:48.438] ObfuscationRegex = null
+[17:08:48.439] MappingURL = null
+[17:08:48.439] MappingFileSHA512 = null
+[17:08:48.440] Unity Dependencies are up to date. No Download Needed.
+[17:08:48.440] Cpp2IL is up to date. No Download Needed.
+[17:08:48.441] Il2CppAssemblyUnhollower is up to date. No Download Needed.
+[17:08:48.441] Checking GameAssembly...
+[17:08:48.667] Assembly is up to date. No Generation Needed.
+[17:08:49.148] Game Version: 27.3
+
+[17:08:49.149] Loading Support Module...
+
+[17:08:49.495] Loading Mods...
+
+[17:08:50.765] ------------------------------
+[17:08:50.766] 4 Mods Loaded
+[17:08:50.766] ------------------------------
+[17:08:50.767] AutoEscape v1.0.3
+[17:08:50.768] by doombubbles
+[17:08:50.770] SHA256 Hash: 812d544414f01bc9fff70bb5f075a24db2d208aa0644378a5ee4d70d6754967c
+[17:08:50.771] ------------------------------
+[17:08:50.771] BloonsTD6 Mod Helper v2.0.0
+[17:08:50.772] by Gurrenm4, Doombubbles, and BowDown097
+[17:08:50.777] SHA256 Hash: aca8c12b9ebadcc205637cf5dc5cd1e52bbae00b46f46ab099263dd359c32708
+[17:08:50.778] ------------------------------
+[17:08:50.778] Gurren Core v1.0.2
+[17:08:50.779] by Gurrenm4
+[17:08:50.781] SHA256 Hash: fcdb28e3c1ff795c0196ca1dd14e85b08a5f0999d3cc87b039c727f489f817a3
+[17:08:50.782] ------------------------------
+[17:08:50.782] speedhackmelon v1.0.0
+[17:08:50.784] by Timotheeee1
+[17:08:50.785] SHA256 Hash: 53caefa864d219ba3abe460d5514cfd9bf026216bba178a89a418a5353cde32a
+[17:08:50.786] ------------------------------
+[17:08:51.619] [BloonsTD6_Mod_Helper] [ERROR] HarmonyLib.HarmonyException: Patching exception in method null ---> System.ArgumentException: Undefined target method for patch method static void BTD_Mod_Helper.Patches.Sim.Simulation_OnRoundEnd::Postfix()
+  at HarmonyLib.PatchClassProcessor.PatchWithAttributes (System.Reflection.MethodBase& lastOriginal) [0x00047] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00059] in <67e16b0234254e2183a98652371f8451>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x0006c] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00084] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__11_0 (System.Type type) [0x00007] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <67e16b0234254e2183a98652371f8451>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <67e16b0234254e2183a98652371f8451>:0 
+  at MelonLoader.MelonHandler+<>c.<OnApplicationStart_Mods>b__30_0 (MelonLoader.MelonMod x) [0x0001a] in <67e16b0234254e2183a98652371f8451>:0 
+  at MelonLoader.MelonHandler.InvokeMelonMethod[T] (System.Collections.Generic.List`1[T]& melons, MelonLoader.MelonHandler+InvokeMelonMethodDelegate`1[T] method, System.Boolean remove_failed) [0x00032] in <67e16b0234254e2183a98652371f8451>:0 
+[17:08:51.661] [Gurren_Core] Mod has successfully loaded
+[17:08:58.149] [ERROR] Critical failure when loading Upgrades for mod AutoEscape
+[17:08:58.151] [ERROR] System.TypeLoadException: Could not resolve type with token 0100009e (from typeref, class/assembly Assets.Scripts.Unity.Localization.LocalizationManager, Assembly-CSharp, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null)
+  at BTD_Mod_Helper.Api.ModContent.LoadAllModContent (BTD_Mod_Helper.BloonsMod mod) [0x0007e] in <8127b025ad4f4c85824c0cf265932866>:0 
+[17:08:58.151] [ERROR] Critical failure when loading Upgrades for mod AutoEscape
+[17:08:58.153] [ERROR] System.TypeLoadException: Could not resolve type with token 0100009e (from typeref, class/assembly Assets.Scripts.Unity.Localization.LocalizationManager, Assembly-CSharp, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null)
+  at BTD_Mod_Helper.Api.ModContent.LoadAllModContent (BTD_Mod_Helper.BloonsMod mod) [0x000b3] in <8127b025ad4f4c85824c0cf265932866>:0 
+[17:45:42.038] Preferences Saved!
